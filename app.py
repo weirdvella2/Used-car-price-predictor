@@ -40,3 +40,5 @@ input_features = np.array([[name, company, fuel, kms, age]])
 if st.button("Predict Price"):
     prediction = model.predict(input_features)[0]
     st.success(f"💰 Estimated Resale Price: ₹ {prediction:,.2f}")
+
+print("Gitttttt Test")
